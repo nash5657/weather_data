@@ -6,8 +6,7 @@ import psycopg2
 import csv
 
 # Define constants
-#API_URL = 'api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=7977a408e7d6807aef421073e6fe11b6'
-API_URL = "https://api.openweathermap.org/data/2.5/weather?q=Stockholm&appid=7977a408e7d6807aef421073e6fe11b6"
+API_URL = "https://api.openweathermap.org/data/2.5/weather?q=Stockholm&appid=YOUR_TOKKEN"
 DB_CONN = {
     "dbname": "airflow",
     "user": "airflow",
